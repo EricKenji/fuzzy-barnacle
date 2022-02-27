@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
+import Contact from "./components/Contact";
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
     <div>
       <Header></Header>
       <main>
-        <AboutMe></AboutMe>
+        <Contact></Contact>
       </main>
     </div>
   )
