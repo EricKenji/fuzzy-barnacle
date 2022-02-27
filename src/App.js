@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 function App() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -32,6 +33,7 @@ function App() {
       <main>
         {changePage()}
       </main>
+      <Footer />
     </div>
   )
 }
