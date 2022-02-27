@@ -1,14 +1,19 @@
 import React from "react";
 import Nav from "../Nav";
 
-function Header() {
+function Header(props) {
+const { currentPage, setCurrentPage } = props;
+
     return (
         <header className="header">
             <div className="name">
                 <h1>Eric Furukawa</h1>
             </div>
             <div>
-                <Nav></Nav>
+                <Nav
+                    currentPage={currentPage}
+                    setCurrentPage={setCurrentPage}
+                ></Nav>
             </div>
             
         </header>

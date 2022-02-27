@@ -1,21 +1,31 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
+    const { currentPage, setCurrentPage } = props;
+
 
     return (
         <nav>
             <ul className="flex-row">
-                <li className="mx-2">
-                    About Me
+                <li>
+                    <span onClick={() => setCurrentPage('AboutMe')}>
+                        About Me
+                    </span>
                 </li>
                 <li>
-                    Portfolio
+                    <span onClick={() => setCurrentPage('Portfolio')}>
+                        Portfolio
+                    </span>
                 </li>
                 <li>
-                    Contact
+                    <span onClick={() => setCurrentPage('Contact')}>
+                        Contact
+                    </span>
                 </li>
                 <li>
-                    Resumé
+                    <span onClick={() => setCurrentPage('Resume')}>
+                        Resumé
+                    </span>
                 </li>
             </ul>
         </nav>
