@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -11,6 +12,8 @@ function App() {
     switch (currentPage) {
       case 'AboutMe':
         return <AboutMe />;
+      case 'Portfolio':
+        return <Portfolio />;
       case 'Contact':
         return <Contact />;
       case 'Resume':
