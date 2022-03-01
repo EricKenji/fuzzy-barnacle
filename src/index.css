@@ -4,13 +4,20 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #93A8AC;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  background-color: #93A8AC;
+  background-color: #D7CEB2;
+  padding: 10px
 }
 
 nav {
@@ -35,4 +42,62 @@ nav span {
   padding: 10px;
 }
 
+.center-text {
+  display: flex;
+  justify-content: center;
+}
 
+.picture{
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 600px;
+  margin-bottom: 25px;
+}
+
+.about-text {
+  text-align: center;
+  padding: 30px
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row, .row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: aliceblue;
+  padding: 10px;
+}
+img {
+  width: 100%;;
+}
+footer {
+  display: flex;
+  background-color: #D7CEB2;
+  justify-content: center;
+  padding: 20px;
+}
+
+footer a {
+  padding: 20px;
+}
