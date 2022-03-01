@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fuzzy-barnacle/static/css/main.ab8acd6f.css",
+    "main.js": "/fuzzy-barnacle/static/js/main.0fe9fb3a.js",
+    "static/js/787.a2cb61a6.chunk.js": "/fuzzy-barnacle/static/js/787.a2cb61a6.chunk.js",
+    "static/media/stock-tracker.png": "/fuzzy-barnacle/static/media/stock-tracker.20441842e219c8950360.png",
+    "static/media/collab-cargo.png": "/fuzzy-barnacle/static/media/collab-cargo.0518dc9cde4bf3217ec0.png",
+    "static/media/weather.png": "/fuzzy-barnacle/static/media/weather.dd391426c12e82dadb43.png",
+    "static/media/tech-talk.png": "/fuzzy-barnacle/static/media/tech-talk.8dc598cc89640f695e4c.png",
+    "static/media/portpic.jpg": "/fuzzy-barnacle/static/media/portpic.223a4e67cdd1a78a8375.jpg",
+    "static/media/budget-tracker.png": "/fuzzy-barnacle/static/media/budget-tracker.649f5fa1ecdd840e0f11.png",
+    "static/media/note-taker.png": "/fuzzy-barnacle/static/media/note-taker.3944daf1332c914b9b1d.png",
+    "index.html": "/fuzzy-barnacle/index.html",
+    "main.ab8acd6f.css.map": "/fuzzy-barnacle/static/css/main.ab8acd6f.css.map",
+    "main.0fe9fb3a.js.map": "/fuzzy-barnacle/static/js/main.0fe9fb3a.js.map",
+    "787.a2cb61a6.chunk.js.map": "/fuzzy-barnacle/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab8acd6f.css",
+    "static/js/main.0fe9fb3a.js"
+  ]
+}
