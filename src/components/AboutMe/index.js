@@ -1,11 +1,12 @@
 import React from "react";
 import PortPic from '../../assets/images/portpic.jpg'
 
+
 function AboutMe() {
 
     return (
         <section>
-            <div>
+            <div className="about">
                 <h1 className="center-text">
                     ABOUT ME
                 </h1>

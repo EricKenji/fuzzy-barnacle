@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -55,6 +59,11 @@ nav span {
   margin-bottom: 25px;
 }
 
+.about h1 {
+  margin: auto;
+  padding: 20px;
+}
+
 .about-text {
   text-align: center;
   padding: 30px
@@ -63,6 +72,11 @@ nav span {
 .main {
   max-width: 1000px;
   margin: auto;
+}
+
+.main h2 {
+  margin: auto;
+  padding: 20px;
 }
 
 .row {
@@ -91,6 +105,40 @@ nav span {
 img {
   width: 100%;;
 }
+
+.contact-header {
+  text-align: center;
+  height: 800px;
+}
+
+.contact-header h1 {
+  margin: auto;
+  padding: 20px;
+}
+
+.resume {
+  height: 800px;
+}
+
+.resume-header {
+  text-align: center;
+}
+
+.resume-header h1 {
+  margin: auto;
+  padding: 20px;
+}
+
+.proficiencies {
+  text-align: center;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.proficiencies li {
+  list-style-type: none;
+}
+
 footer {
   display: flex;
   background-color: #D7CEB2;
