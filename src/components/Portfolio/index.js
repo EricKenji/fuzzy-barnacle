@@ -1,4 +1,5 @@
 import React from "react";
+import WhiskeyBusiness from '../../assets/images/whiskeybusiness.png'
 import CollabCargo from '../../assets/images/collab-cargo.png'
 import StockTracker from '../../assets/images/stock-tracker.png'
 import BudgetTracker from '../../assets/images/budget-tracker.png'
@@ -12,6 +13,18 @@ function Portfolio() {
     return (
         <div className="main">
             <h2 className="center-text">My Portfolio</h2>
+            <div className="row">
+                <div className="content">
+                    <img src={WhiskeyBusiness} alt="Whiskey Business" />
+                    <h3>Cocktail Search Engine</h3>
+                    <a href="https://github.com/EricKenji/whiskey-business">
+                        <button >GitHub Link</button>
+                    </a>
+                    <a href="https://arcane-shelf-84573.herokuapp.com/">
+                        <button>Deployed App</button>
+                    </a>
+                </div>
+            </div>
             <div className="row">
                 <div className="content">
                     <img src={CollabCargo} alt="collaborative cargo" />
